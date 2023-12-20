@@ -1,0 +1,43 @@
+.service {
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  gap: 90px;
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
+  &_left {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  img {
+    width: 100%;
+  }
+}
+.lab {
+  flex-direction: row-reverse;
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
+}
+.documents_right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  &_first,
+  &_second {
+    width: max-content;
+  }
+
+  img {
+    width: 200px;
+    @media (max-width: 500px) {
+      width: 100%;
+    }
+  }
+}
