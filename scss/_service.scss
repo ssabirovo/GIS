@@ -28,16 +28,16 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 20px;
+
   &_first,
   &_second {
     width: max-content;
   }
 
   img {
-    width: 200px;
+    width: 150px;
     @media (max-width: 500px) {
-      width: 100%;
+      width: 25%;
     }
   }
 }

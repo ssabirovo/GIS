@@ -7,6 +7,7 @@
 @import "_service";
 @import "_phones";
 @import "_address";
+@import "_footer";
 
 body,
 body * {
@@ -14,6 +15,11 @@ body * {
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .btn {
