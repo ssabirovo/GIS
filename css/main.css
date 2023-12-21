@@ -75,7 +75,6 @@
 }
 
 .dropdown {
-  position: absolute;
   width: 100%;
   background-color: #ffffff;
   display: flex;
@@ -83,6 +82,7 @@
   box-shadow: 0px 30px 10px #0003;
   transition: 0.3s ease-in-out;
   padding: 30px 0;
+  position: fixed;
   top: 9vh;
   right: 0;
   width: 0;
