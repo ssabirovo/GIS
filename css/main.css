@@ -154,7 +154,7 @@
 }
 .header_content_title {
   color: #252b42;
-  font-size: 42px;
+  font-size: 28px;
   font-weight: 700;
 }
 @media (max-width: 540px) {
@@ -164,7 +164,7 @@
 }
 .header_content_description {
   color: #737373;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 @media (max-width: 540px) {
@@ -203,7 +203,7 @@
 }
 .usefull_header {
   gap: 10px;
-  max-width: 50%;
+  max-width: 70%;
 }
 @media (max-width: 540px) {
   .usefull_header {
@@ -410,6 +410,33 @@
   box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.07);
 }
 .address_location i {
+  color: #0056FE;
+}
+
+.pagination {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+.pagination * {
+  cursor: pointer;
+}
+.pagination a {
+  color: #252b42;
+}
+.pagination_active {
+  background-color: #0056FE;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff !important;
+}
+.pagination_btnDisabled {
+  color: #0003;
+  cursor: not-allowed;
+}
+.pagination_btnActive {
   color: #0056FE;
 }
 

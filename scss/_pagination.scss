@@ -1,0 +1,26 @@
+.pagination {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  * {
+    cursor: pointer;
+  }
+  a {
+    color: $main-Text;
+  }
+  &_active {
+    background-color: $main;
+    padding: 10px;
+    border-radius: 10px;
+    color: $white !important;
+  }
+  &_btnDisabled {
+    color: #0003;
+    cursor: not-allowed;
+  }
+  &_btnActive {
+    color: $main;
+  }
+}
